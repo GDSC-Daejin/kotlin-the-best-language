@@ -22,7 +22,7 @@ fun main() {
 
     // You don't need to implement "hashCode()" and "equals()" in data class, It is optional
     if (clonedHarry == harry) {
-        println("???????")
+        println("Never! Cloned Harry is Not a Harry.")
     }
 
     val jason = PersonData(age = 21, name = "Jason")
