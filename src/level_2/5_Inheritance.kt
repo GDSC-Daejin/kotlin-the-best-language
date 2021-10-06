@@ -5,7 +5,7 @@ interface Animal {
     val legCount: Int
     val name: String
 
-    // Kotlin interface can implement function (then this function implementation now is optional)
+    // Kotlin interface can implement function (then this function implementation is optional now)
     fun greeting() {
         val legCountAsString = if (legCount == 0) "no leg" else "$legCount legs"
         println("Hello! I'm $name, I have $legCountAsString")
