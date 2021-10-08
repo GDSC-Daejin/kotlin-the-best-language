@@ -1,7 +1,7 @@
 package level_2
 
-// You can alias type to another name.
-// But it does not change types after compile.
+// 타입을 다른 이름으로 치환합니다.
+// 하지만 이름만 변경된 것이고, 컴파일 이후에는 본래의 타입으로 컴파일 됩니다.
 typealias Name = String
 typealias Age = Int
 
