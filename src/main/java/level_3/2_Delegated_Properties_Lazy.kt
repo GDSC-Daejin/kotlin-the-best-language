@@ -1,6 +1,6 @@
 package level_3
 
-val lazyValue: String by lazy {
+private val lazyValue: String by lazy {
     println("computed!")
     "Hello"
 }

@@ -2,7 +2,7 @@ package level_3
 
 import kotlin.reflect.KProperty
 
-class Delegate {
+private class Delegate {
     operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
         return "$thisRef, thank you for delegating '${property.name}' to me!"
     }
